@@ -1,9 +1,16 @@
+
+
+
 const initialState = {
 
 
 }
 
 export default function (state = initialState, action) {
-  default:
-    return state
+  // if (action.type) ...
+  switch(action.type) {
+    default:
+      return state
+
+  }
 }
